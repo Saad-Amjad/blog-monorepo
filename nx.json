@@ -29,6 +29,9 @@
     "blog-frontend-e2e": {
       "tags": [],
       "implicitDependencies": ["blog-frontend"]
+    },
+    "blog-api": {
+      "tags": []
     }
   }
 }
