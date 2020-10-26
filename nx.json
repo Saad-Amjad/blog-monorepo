@@ -32,6 +32,9 @@
     },
     "blog-api": {
       "tags": []
+    },
+    "shared": {
+      "tags": []
     }
   }
 }

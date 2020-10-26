@@ -1,8 +1,10 @@
 import { Injectable } from '@nestjs/common';
+import { Blog } from '@blog-monorepo/shared';
 
 @Injectable()
 export class AppService {
-  getData(): { message: string } {
-    return { message: 'Welcome to blog-api!' };
+  getData(): Blog[] {
+    return [{ title: 'New Blog Title 1 ' }, { title: 'New Blog Title 2' }];
   }
 }
+
